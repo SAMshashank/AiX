@@ -18,7 +18,11 @@ const voiceID = "LcfcDJNUP1GQjkzn1xUU";
 
 const app = express();
 app.use(express.json());
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://ai-x-lbdy.vercel.app/",
+  })
+);
 const port = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
