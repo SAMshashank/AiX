@@ -1,7 +1,7 @@
 import { createContext, useContext, useEffect, useState } from "react";
 
 // const backendUrl = import.meta.env.VITE_API_URL || "http://localhost:3000";
-const backendUrl ="http://localhost:3000";
+const backendUrl ="https://aix-0oe2.onrender.com";
 
 const ChatContext = createContext();
 
